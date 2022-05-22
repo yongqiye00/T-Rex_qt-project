@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="RedCat">12.png</file>
+        <file alias="mz">明正.jpg</file>
+        <file alias="wqr">wqr.jpg</file>
+    </qresource>
+</RCC>

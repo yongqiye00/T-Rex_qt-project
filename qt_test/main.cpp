@@ -1,11 +1,18 @@
 #include "mainwindow.h"
 
 #include <QApplication>
-#include <QLabel>
+#include <QSpinBox>
+#include <QSlider>
+#include <QHBoxLayout>
+
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    QLabel l("Hello,world!");
-    l.show();
-    return a.exec();
+    QApplication app(argc,argv);
+
+    MainWindow window;
+    window.show();
+
+    return app.exec();
+
+
 }
